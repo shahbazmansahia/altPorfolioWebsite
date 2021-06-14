@@ -7,7 +7,7 @@
     <!--Get from font awesome website; CSS getting-started -->
     <script src="https://use.fontawesome.com/adc490ad29.js"></script>
     <!--Get from bootstrap website-->
-    <link href="css/bootstrap.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!--custom stylesheet-->
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Theme</title>
@@ -15,7 +15,62 @@
 <body>
     <!--START HERE!-->
     
-    <span id= "year"></span>
+    <div class="container">
+        <header id="webHeader">
+            <div class="row g-0">
+                <div class="col-lg-4 col-md-5">
+                    <img src="img/dp.jpg" alt=""> <!-- FIX ME: CHANGE PROFILE PIC TO A MORE PROFESIONAL ONE!-->
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-light"> <!-- FIX ME: LINKEDIN AND GITHUB ICONS NOT ALIGNED IDEALLY-->
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h1 class= "display-4">Shahbaz Singh</h1>
+                                <div class="d-md-block">
+                                    <a href="https://www.linkedin.com/in/shahbaz-mansahia/" class="text-light">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <a href="https://github.com/shahbazmansahia" class="text-light mx-3">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-black">
+                            Experienced Full Stack Web-developer
+                        </div>
+
+                        <div>
+                            <div class="d-flex flex-row text-light align-items-stretch text-center">
+                                <div class="port-item p-4 bg-teal" data-toggle= "collapse" data-target= "#home">
+                                    <i class="fa fa-home fa-2x w-100"></i>
+                                    <span class="d-none d-sm-block">Home</span>
+                                </div>
+                                
+                                <div class="port-item p-4 bg-blueLight" data-toggle= "collapse" data-target= "#resume">
+                                    <i class="fa fa-graduation-cap fa-2x w-100"></i>
+                                    <span class="d-none d-sm-block">Resume</span>
+                                </div>
+
+                                <div class="port-item p-4 bg-blueNeutral" data-toggle= "collapse" data-target= "#work">
+                                    <i class="fa fa-folder-open fa-2x w-100"></i>
+                                    <span class="d-none d-sm-block">work</span>
+                                </div>
+
+                                <div class="port-item p-4 bg-purpleBlue" data-toggle= "collapse" data-target= "#contact">
+                                    <i class="fa fa-envelope fa-2x w-100"></i>
+                                    <span class="d-none d-sm-block">Contact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
     <!-- JQUERY MIN FROM URL: http://code.jquery.com/  (jQuery Core-> min) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 

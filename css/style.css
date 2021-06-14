@@ -1,0 +1,40 @@
+#webHeader img {
+  width: 100%;
+  height: 100%; }
+
+#webHeader .port-item {
+  width: 30%; }
+
+#webHeader .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+.bg-black {
+  color: #fff;
+  background: #000; }
+
+.bg-teal {
+  color: #fff;
+  background: #008080; }
+
+.bg-blueLight {
+  color: #fff;
+  background: #47B7F5; }
+
+.bg-blueNeutral {
+  color: #fff;
+  background: #4B75DE; }
+
+.bg-purpleBlue {
+  color: #fff;
+  background: #5547F5; }
+
+.bg-purplePink {
+  color: #fff;
+  background: #8F44EB; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 4.2em !important; } }
+
+/*# sourceMappingURL=style.css.map */
