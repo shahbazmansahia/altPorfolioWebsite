@@ -86,30 +86,67 @@
                 <hr>
                 <h4>Java</h4>
                 <div class="progress mb-3">
-                    <div class="progress-bar bg-primary" style= "width: 95%"></div>
+                    <div class="progress-bar-striped bg-primary" style= "width: 95%"></div>
                 </div>
 
                 <h4>C++</h4>
                 <div class="progress mb-3">
-                    <div class="progress-bar bg-primary" style= "width: 95%"></div>
+                    <div class="progress-bar-striped bg-primary" style= "width: 95%"></div>
                 </div>
 
                 <h4>HTML</h4>
                 <div class="progress mb-3">
-                    <div class="progress-bar bg-primary" style= "width: 90%"></div>
+                    <div class="progress-bar-striped bg-primary" style= "width: 90%"></div>
                 </div>
 
                 <h4>CSS</h4>
                 <div class="progress mb-3">
-                    <div class="progress-bar bg-primary" style= "width: 95%"></div>
+                    <div class="progress-bar-striped bg-primary" style= "width: 95%"></div>
                 </div>
 
                 <h4>PHP</h4>
                 <div class="progress mb-3">
-                    <div class="progress-bar bg-primary" style= "width: 85%"></div>
+                    <div class="progress-bar-striped bg-primary" style= "width: 85%"></div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Resume -->
+
+    <div id="resume" class="collapse">
+        <div class="card bg-blueLight text-light py-5">
+            <div class="card-body">
+                <h5>My Resume</h5>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nesciunt.</p>
+            </div>
+        </div>
+        
+        <div class="card py-5">
+            <div class="card-body">
+                <h3>Work Experience</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero totam, laudantium nihil labore sequi minus.</p>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Flexon Technnologies</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, placeat.</p>
+                            <p class="p-2 mb-3 bg-dark text-light">
+                                Position: DevOps Engineer
+                            </p>
+                            <p class="p-2 mb-3 bg-dark text-light">
+                                Phone: XXX-XXX-XXXX
+                            </p>
+
+                            <div class="card-footer">
+                                <h6 class="text-muted">Dates: 2019 - 2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Footer -->
@@ -143,6 +180,9 @@
         // Get current year for the copyright
         $('#year').text(new Date().getFullYear());
 
+        $('.port-item').click(function (){
+            $('.collapse').collapse('hide');
+        });
     </script>
 </body>
 </html>
